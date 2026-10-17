@@ -1,2 +1,2 @@
-src/UTK[[:space:]]main[[:space:]]menu/Assets/UI/Textures/UI_atlas.psd filter=lfs diff=lfs merge=lfs -text
-src/UTK[[:space:]]main[[:space:]]menu/Assets/UI/Textures/Icons/CheckIcon.psd filter=lfs diff=lfs merge=lfs -text
+"src/UTK main menu/Assets/UI/Textures/UI_atlas.psd" filter=lfs diff=lfs merge=lfs -text
+"src/UTK main menu/Assets/UI/Textures/Icons/CheckIcon.psd" filter=lfs diff=lfs merge=lfs -text

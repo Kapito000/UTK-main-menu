@@ -1,6 +1,12 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Label text="MAIN MENU" name="HeadlineLabel" enable-rich-text="false" style="-unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/ChelaOne-Regular.ttf?fileID=12800000&amp;guid=8c2226f5768e49f4ca5f58858a57cb7a&amp;type=3#ChelaOne-Regular&quot;); font-size: 55px; color: rgb(255, 255, 255); text-shadow: 2px 2px 0 rgb(0, 0, 0);"/>
-    <ui:Button text="Button"/>
-    <ui:Button text="Button"/>
-    <ui:Button text="Button"/>
+    <Style src="project://database/Assets/_game/UI/MainMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=a35ca2953df10e8438f15dd234fc4788&amp;type=3#MainMenuStyleSheet"/>
+    <ui:VisualElement name="panel-container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Textures/Misc/HomeScreenBackground.png?fileID=2800000&amp;guid=c1ffb0bb8a98fad48ad921cedaf52e2e&amp;type=3#HomeScreenBackground&quot;); width: 100%; height: 100%; -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="center-panel" class="centerPanel">
+            <ui:VisualElement name="logo" style="background-image: url(&quot;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=7092703706131164029&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#DC_logo&quot;); width: 567px; height: 292px;"/>
+            <ui:Label text="MAIN MENU" name="HeadlineLabel" enable-rich-text="false" style="-unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/ChelaOne-Regular.ttf?fileID=12800000&amp;guid=8c2226f5768e49f4ca5f58858a57cb7a&amp;type=3#ChelaOne-Regular&quot;); font-size: 55px; color: rgb(255, 255, 255); text-shadow: 2px 2px 0 rgb(0, 0, 0);"/>
+            <ui:Button text="START GAME" name="StartButton" class="menuRegularButton"/>
+            <ui:Button text="CREDITS" name="CreditsButton" class="menuRegularButton" style="background-image: url(&quot;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6432575019658845157&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#bt_11&quot;);"/>
+            <ui:Button text="ABOUT US" name="AboutUsButton" class="menuRegularButton" style="background-image: url(&quot;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7887511337294979362&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#bt_12&quot;); margin-bottom: 50px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>

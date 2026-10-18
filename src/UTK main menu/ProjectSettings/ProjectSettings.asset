@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 00000000000000000000000000000000
+  productGUID: 6a70ee26bcdd10c40beeb3dd08ff7d4b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -979,7 +979,7 @@ PlayerSettings:
   cloudProjectId: db42f90e-6988-4300-be7f-1bc4742656e4
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: UTK main menu
   organizationId: mark117
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
